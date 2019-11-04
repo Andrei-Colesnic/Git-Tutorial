@@ -33,7 +33,9 @@ ffw_pre_processpreprocess_node(&$variables) {
 
     // Add the family link.
     $variables['dealer_url'] = ffw_get_dealer_link($variables['node']);
-    $variables['phone_additional_info'][] = $phone_data['value'];
+    $variables['phone_additional_info'][] = 123;
+    $variables['phone_additional_info'][] = $value;
+    $variables['phone_additional_info'][] = $phone;
   }
 }
 
