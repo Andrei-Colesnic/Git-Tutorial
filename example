@@ -1,0 +1,38 @@
+This is very important line
+
+Some code goes here
+
+/**
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*/
+
+
+More important hooks and sorts
+
+ffw_pre_processpreprocess_node(&$variables) {
+  $language_id = \Drupal::service('language_manager')->getCurrentLanguage()->getId();
+  $type = $variables['node']->getType();
+
+  if ($type === 'product') {
+
+    // Add the family link.
+    $variables['dealer_url'] = ffw_get_dealer_link($variables['node']);
+    $variables['phone_additional_info'][] = $phone_data['value'];
+  }
+}
