@@ -22,8 +22,9 @@ Some code goes here
 *
 */
 
-
 More important hooks and sorts
+
+Do not edit this line ^^
 
 ffw_pre_processpreprocess_node(&$variables) {
   $language_id = \Drupal::service('language_manager')->getCurrentLanguage()->getId();
