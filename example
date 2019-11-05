@@ -36,6 +36,7 @@ ffw_pre_processpreprocess_node(&$variables) {
     $variables['phone_additional_info'][] = 123;
     $variables['phone_additional_info'][] = $value;
     $variables['phone_additional_info'][] = $phone;
+    $variables['phone_additional_info'][] = $phone_data['911'];
   }
 }
 
